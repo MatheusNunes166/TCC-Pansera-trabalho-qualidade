@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { Html5Qrcode, Html5QrcodeSupportedFormats as Fmt } from 'html5-qrcode';
 import api, { importProductsBatch } from '../services/api';
+import { validarProduto } from '../utils/productValidation';
 
 const INITIAL_FORM = { nome: '', quantidade: '', unidade: 'UN', categoria: '', fornecedor: '', codigo_barras: '' };
 const UNIDADES = ['UN', 'CX', 'PCT', 'KG', 'G', 'T', 'L', 'ML', 'M', 'CM'];
@@ -224,19 +225,9 @@ export default function AddProductModal({ onClose, onProductsAdded, categories =
   }
 
   // ─── Manual form ───────────────────────────────────────────────
-  function validateForm() {
-    const e = {};
-    if (!form.nome.trim()) e.nome = 'Nome é obrigatório.';
-    const qty = parseFloat(form.quantidade);
-    if (!form.quantidade.trim()) e.quantidade = 'Quantidade é obrigatória.';
-    else if (isNaN(qty) || qty <= 0) e.quantidade = 'Quantidade deve ser um número maior que zero.';
-    if (!form.unidade) e.unidade = 'Unidade é obrigatória.';
-    return e;
-  }
-
   async function handleManualSubmit(e) {
     e.preventDefault();
-    const errs = validateForm();
+    const errs = validarProduto(form);
     if (Object.keys(errs).length) { setErrors(errs); return; }
     setLoading(true);
     try {
