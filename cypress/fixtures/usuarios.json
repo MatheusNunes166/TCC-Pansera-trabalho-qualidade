@@ -1,0 +1,6 @@
+[
+  { "id": 1, "nome": "Usuário Teste", "email": "teste@exemplo.com", "role": "admin", "ativo": true },
+  { "id": 2, "nome": "Carla Sócia", "email": "carla@exemplo.com", "role": "socio", "ativo": true },
+  { "id": 3, "nome": "Diego Operador", "email": "diego@exemplo.com", "role": "user", "ativo": true },
+  { "id": 4, "nome": "Eva Inativa", "email": "eva@exemplo.com", "role": "user", "ativo": false }
+]

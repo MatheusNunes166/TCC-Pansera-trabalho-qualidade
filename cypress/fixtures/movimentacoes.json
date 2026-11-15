@@ -1,0 +1,8 @@
+[
+  { "id": 1, "created_at": "2026-11-10T14:30:00.000Z", "product_nome": "Arroz 5kg", "tipo": "saida", "quantidade": 5, "origem": "estoque", "user_nome": "Ana Lima", "detalhes": null },
+  { "id": 2, "created_at": "2026-11-09T10:00:00.000Z", "product_nome": "Feijão 1kg", "tipo": "entrada", "quantidade": 20, "origem": "estoque", "user_nome": "Bruno Reis", "detalhes": null },
+  { "id": 3, "created_at": "2026-11-08T16:45:00.000Z", "product_nome": "Detergente", "tipo": "edicao", "quantidade": 0, "origem": "estoque", "user_nome": "Ana Lima", "detalhes": { "antes": { "nome": "Detergente", "quantidade": 10 }, "depois": { "nome": "Detergente Neutro", "quantidade": 12 } } },
+  { "id": 4, "created_at": "2026-11-07T09:15:00.000Z", "product_nome": "Esponja", "tipo": "remocao", "quantidade": 40, "origem": "estoque", "user_nome": "Bruno Reis", "detalhes": null },
+  { "id": 5, "created_at": "2026-11-06T11:20:00.000Z", "product_nome": "Café 500g", "tipo": "saida", "quantidade": 2, "origem": "pedido", "user_nome": null, "detalhes": null },
+  { "id": 6, "created_at": "2026-11-05T08:00:00.000Z", "product_nome": "Arroz 5kg", "tipo": "entrada", "quantidade": 30, "origem": "estoque", "user_nome": "Ana Lima", "detalhes": null }
+]

@@ -1,0 +1,12 @@
+node_modules/
+
+# Credenciais locais do usuário de teste
+cypress.env.json
+
+# Artefatos de execução
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+
+.DS_Store
+*.log

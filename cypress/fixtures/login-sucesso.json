@@ -1,0 +1,7 @@
+{
+  "token": "token-falso-apenas-para-testes-e2e",
+  "id": 1,
+  "nome": "Usuário Teste",
+  "role": "admin",
+  "avatar_url": null
+}

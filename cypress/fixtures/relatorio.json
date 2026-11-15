@@ -1,0 +1,16 @@
+{
+  "period": { "from": "2026-10-13", "to": "2026-11-11" },
+  "summary": { "totalProdutos": 5, "estoqueBaixo": 1, "esgotados": 1, "totalEntradas": 50, "totalSaidas": 12.5 },
+  "topRetirados": [
+    { "product_id": 1, "nome": "Arroz 5kg", "quantidade": 7.5 },
+    { "product_id": 4, "nome": "Detergente", "quantidade": 5 }
+  ],
+  "consumoPorCategoria": [
+    { "categoria": "Alimentos", "quantidade": 7.5 },
+    { "categoria": "Limpeza", "quantidade": 5 }
+  ],
+  "giro": [
+    { "product_id": 1, "nome": "Arroz 5kg", "categoria": "Alimentos", "unidade": "KG", "estoque": 25, "retirado": 7.5, "giro": 0.3 },
+    { "product_id": 3, "nome": "Café 500g", "categoria": "Alimentos", "unidade": "PCT", "estoque": 0, "retirado": 2, "giro": null }
+  ]
+}

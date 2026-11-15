@@ -1,0 +1,7 @@
+[
+  { "id": 1, "nome": "Arroz 5kg", "quantidade": 25, "unidade": "KG", "categoria": "Alimentos", "fornecedor": "Distribuidora Sul", "peso_kg": 5, "created_at": "2026-10-01T12:00:00.000Z" },
+  { "id": 2, "nome": "Feijão 1kg", "quantidade": 3, "unidade": "KG", "categoria": "Alimentos", "fornecedor": "Distribuidora Sul", "peso_kg": 1, "created_at": "2026-10-02T12:00:00.000Z" },
+  { "id": 3, "nome": "Café 500g", "quantidade": 0, "unidade": "PCT", "categoria": "Alimentos", "fornecedor": null, "peso_kg": 0.5, "created_at": "2026-10-03T12:00:00.000Z" },
+  { "id": 4, "nome": "Detergente", "quantidade": 10, "unidade": "UN", "categoria": "Limpeza", "fornecedor": "Limpa Tudo", "peso_kg": null, "created_at": "2026-10-04T12:00:00.000Z" },
+  { "id": 5, "nome": "Esponja", "quantidade": 40, "unidade": "UN", "categoria": null, "fornecedor": null, "peso_kg": null, "created_at": "2026-10-05T12:00:00.000Z" }
+]
